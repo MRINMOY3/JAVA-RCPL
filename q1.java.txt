@@ -1,0 +1,25 @@
+import java.lang.*;
+import java.util.*;
+
+
+public class square
+{
+    public static void main(String []args)
+    {
+        int i;
+        Scanner s=new Scanner(System.in);
+        int x;
+        System.out.println("Enter anumber \n");
+        x=s.nextInt();
+        System.out.println("The number entered is = "+x);
+        int square=1;C:\Users\Your Name>java -version
+        for(int f=1;f<x;f++)
+        {
+            if(f*f==x)
+            {
+                square=f;
+            }
+        }
+        System.out.println("√"+ x + " is = " + square);
+    }
+}
